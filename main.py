@@ -3,10 +3,10 @@ class Figure:
         self.name = name
 
     def area(self):
-        return
+        pass
 
     def print(self):
-        print(f'Figure: {self.name}')
+        print(f'Figure: {self.name}. Area: {self.area()}')
 
 class Square(Figure):
     def __init__(self, a) -> None:
